@@ -1,6 +1,6 @@
 <p align="center">
 	<a href="">
-		<img src=".github/img/icons8_github_100px.png" alt="logo">
+		<img src=".github/img/icons8_html_filetype_100px.png" alt="logo">
 	</a>
 </p>
 
@@ -38,13 +38,19 @@ forms, modal boxes, multimedia, and HTML5.
 
 ### Audience
 
-This tutorial is designed to help both beginners and experienced designers become experts in building dynamic and 
-responsive websites.
+This HTML tutorial is designed for aspiring web designers and developers with a need to understand the HTML in enough 
+detail along with its simple overview and practical examples. This tutorial will give you enough ingredients to start 
+with HTML, from where you can take yourself to a higher level of expertise.
 
 ### Prerequisites
 
-Before you start practicing on the various types of examples given in this reference, we assume that you are already 
-have some basic computer knowledge and the ability to work with files.
+Before proceeding with this HTML tutorial, you should have a basic working knowledge of the Windows or Linux operating 
+system; additionally, you must be familiar with:
+- Experience with any text editor like Notepad, Notepad++, or Edit Plus etc.
+- How to create directories and files on your computer.
+- How to navigate through different directories.
+- How to type content in a file and save it on a computer.
+- Understanding about images in different formats like JPEG, PNG format.
 
 ### Usage
 
