@@ -16,15 +16,29 @@
 
 <p align="center">
 	<br> <br>
-    <img src="https://img.shields.io/github/contributors/wasulabenjamin/html_basics" alt="Contributors"/>
+    <a href="https://app.codacy.com/gh/wasulabenjamin/html_basics/dashboard">
+		<img src="https://app.codacy.com/project/badge/Grade/f6eadae00b92492fb1188f9551f6101f"/>
+	</a>
     &nbsp;
-	<img src="https://img.shields.io/github/forks/wasulabenjamin/html_basics" alt="Forks"/>
+	<a href="https://github.com/wasulabenjamin/html_basics/graphs/contributors">
+    	<img src="https://img.shields.io/github/contributors/wasulabenjamin/html_basics" alt="Contributors"/>
+	</a>
+    &nbsp;
+    <a href="https://github.com/wasulabenjamin/html_basics/network/members">
+		<img src="https://img.shields.io/github/forks/wasulabenjamin/html_basics" alt="Forks"/>
+    </a>
 	&nbsp;
-	<img src="https://img.shields.io/github/stars/wasulabenjamin/html_basics" alt="Stars"/>
+	<a href="https://github.com/wasulabenjamin/html_basics/stargazers">
+		<img src="https://img.shields.io/github/stars/wasulabenjamin/html_basics" alt="Stars"/>
+	</a>
 	&nbsp;
-	<img src="https://img.shields.io/github/issues/wasulabenjamin/html_basics" alt="Issues"/>
+	<a href="https://github.com/wasulabenjamin/html_basics/issues">
+		<img src="https://img.shields.io/github/issues/wasulabenjamin/html_basics" alt="Issues"/>
+	</a>
 	&nbsp;
-	<img src="https://img.shields.io/github/license/wasulabenjamin/html_basics" alt="License"/>
+	<a href="https://github.com/wasulabenjamin/html_basics/blob/master/LICENSE">
+		<img src="https://img.shields.io/github/license/wasulabenjamin/html_basics" alt="License"/>
+	</a>
 </p>
 
 # Introduction

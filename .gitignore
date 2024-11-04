@@ -1,31 +1,89 @@
 # Include your project-specific ignores in this file
-# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+# Read about how to use .gitignore on: https://help.github.com/articles/ignoring-files
 # Useful .gitignore templates: https://github.com/github/gitignore
 
+# Java specific
 # =========================
-# Operating System Files
-# =========================
+*.bak
+*.class
 
-# OSX
+# Web Specific
 # =========================
-.DS_Store
+node_modules
+dist
+.cache
+
+# Gradle Specific
+# =========================
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+
+# Temp build
+# =========================
+[Bb]uild*/
+[Bb]in/
+[Dd]ebug*/
+[Rr]elease*/
+*.log
+
+# IntelliJ IDEA
+# =========================
+.idea
+#.idea/modules.xml
+#.idea/jarRepositories.xml
+#.idea/compiler.xml
+#.idea/libraries/
+*.iml
+*.ipr
+*.iws
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Eclipse
+# =========================
+.apt_generated
+.classpath
+.factorypath
+.metadata/*
+.project
+.settings
+.springBeans
+.sts4-cache
+libs/*
+
+# NetBeans
+# =========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+# =========================
+/.vs
+.vscode/
+
+# Mac OS
+# =========================
+.apdisk
 .AppleDouble
+.AppleDB
+.AppleDesktop
 .LSOverride
+Network Trash Folder
+Temporary Items
 
-# WINDOWS
+# Windows
 # =========================
-*.DS_Store
+$RECYCLE.BIN/
+ehthumbs.db
+[Tt]humbs.db
+.DS_Store
+*.cab
 *.ini
 *.lnk
-[Tt]humbs.db
-Desktop.ini
-Thumbs.db
-ehthumbs.db
-$RECYCLE.BIN/
-
-# Windows Installer files
-# =========================
-*.cab
 *.msi
 *.msm
 *.msp
@@ -35,43 +93,10 @@ $RECYCLE.BIN/
 ._*
 
 # Files that might appear in the root of a volume
+# =========================
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-#intellij specific
-.idea
-.idea/
-*.iml
-*.ipr
-*.iws
-
-#eclipse specific
-.metadata/*
-.settings
-
-/.vs
-
-#temp build
-[Bb]uild*/
-[Bb]in/
-[Dd]ebug*/
-[Rr]elease*/
-
-#debug specific
-*.log
-
-# html_basics specific
-node_modules
-dist
-.cache

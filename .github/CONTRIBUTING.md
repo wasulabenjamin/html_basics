@@ -127,7 +127,6 @@ tidy up your commits before making them public.
 By contributing your code, you agree to license your contribution under the [MIT License][license_mit].
 
 
-
 [issue_tracker]: https://github.com/wasulabenjamin/html_basics/issues
 [report_bug]: https://github.com/wasulabenjamin/html_basics/issues/new?template=bug_report.md
 [request_feature]: https://github.com/wasulabenjamin/html_basics/issues/new?template=feature_request.md
