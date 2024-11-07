@@ -3,26 +3,25 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title> HTML Basics </title>
+	<title>HTML Basics</title>
 </head>
 <body>
 	<h1> Basic Tags </h1>
-	<p>
-		HTML tags are the fundamental elements of HTML used for defining the structure of the document.
-		These are letters or words enclosed by angle brackets (< and >).
-	</p>
-	<p>
+	<!--
+		HTML tags are the fundamental elements of HTML used for defining the structure of the document. These are letters 
+		or words enclosed by angle brackets (< and >).
 		Usually, most of the HTML tags contain an opening and a closing tag. Each tag has a different meaning, and the 
 		browser reads the tags and displays the contents enclosed by them accordingly.
-	</p>
-
+	-->
+	
 	<h2> Heading Tags </h2>
-	<p>
+	<!--
 		Heading tags are used to define headings of documents. You can use different sizes for your headings. 
 		HTML also has six levels of headings, which use the elements h1, h2, h3, h4, h5 and h6.
 		While displaying any heading, the browser adds one line before and one line after that heading.
-	</p>
-	<p> Following HTML code demonstrates various levels of headings: </p>
+
+		Following HTML code demonstrates various levels of headings:
+	-->
 	<h1> This is heading 1 </h1>
 	<h2> This is heading 2 </h2>
 	<h3> This is heading 3 </h3>
@@ -43,15 +42,12 @@
 	<!--
 		Center Tag: The <center> tag aligns text, images, or other HTML elements in the middle of a web page.
 		Note: The <center> tag is deprecated in HTML5. You can use the CSS text-align property to center elements.
-	-->
-	<p>
+
 		The following example demonstrates the use of the center tag. Here, we are displaying the second paragraph in center 
 		alignment:
-	</p>
+	-->
 	<p> This text is not in the center. </p>
- 	<center>
- 		<p> This text is in the center. </p>
- 	</center>
+ 	<center><p> This text is in the center. </p> </center>
 
  	<h2> Horizonal Rule Tag </h2>
  	<!--
@@ -142,6 +138,7 @@
 		The following statement demonstrates the use of two attributes src and alt with an HTML element img:
 		<img src="logo.jpg" alt="TutorialsPoint Logo" />
 	-->
+	<img src="logo.jpg" alt="TutorialsPoint Logo">
 
 	<h2>Mandatory Closing HTML Elements</h2>
 	<p>
@@ -154,6 +151,65 @@
 	</p>
 
 	<h1> Attributes </h1>
+	<p>
+		HTML attributes are special words that provide additional information to an HTML element. Attributes are placed 
+		inside the element's opening tag, and they are used to configure or adjust the element's behavior. All attributes 
+		are made up of two parts: a name and a value. 
+	</p>
+	<p>
+		Name: The attribute name is the keyword, also known as the attribute identifier, which defines a specific 
+		characteristic for the element in which it is using. For example, the paragraph, p, element (in the below-given 
+		example) has an attribute "align", which defines the alignment of the paragraph on the page.
+	</p>
+	<p>
+		Value: The attribute value is the data or information that defines the value to be set for that attribute. The value 
+		is assigned within the double quotes. For example, "left", "center", or "right" can be assigned to the "align" 
+		attribute with the paragraph tag (as shown in the below example).
+	</p>
+	<p>Below is the syntax of an element HTML having attribute:</p>
+	<p align="right">Right aligned paragraph</p>
+	<p align="left">Left aligned paragraph</p>
+	<p align="center">Center aligned paragraph</p>
+
+	<h2>Rules and Characteristics</h2>
+	<p>
+		The following are the rules and characteristics of HTML attributes; you should follow while using attributes with 
+		HTML elements:
+	</p>
+	<ul>
+		<li>Attributes are optional; you can use them to provide additional information about an HTML element.</li>
+		<li>
+			Attributes have name and value pairs, but some of the attributes do not require any value; those are known as 
+			Boolean attributes.
+		</li>
+		<li>A HTML element can have multiple attributes, and they should be separated by spaces.</li>
+		<li>Attributes should always be written with the opening tag.</li>
+		<li>W3C recommends using attributes in lowercase and keeping the value in quotes.</li>
+	</ul>
+
+	<h2>HTML Core Attributes</h2>
+	<!--
+		The four core attributes that can be used on the majority of HTML elements (although not all) are :
+		
+		The id Attribute, The id attribute of an HTML tag can be used to uniquely identify any element within a HTML page.
+		There are two primary reasons that you might want to use an id attribute on an element − 
+		- If an element carries an id attribute as a unique identifier, it is possible to identify just that element and its 
+			content
+		- If you have two elements of the same name within a Web page (or style sheet), you can use the id attribute to 
+			distinguish between elements that have the same name.
+
+		The title Attribute, The title attribute gives a suggested title for the element. The syntax for the title attribute 
+		is similar as explained for id attribute. The behavior of this attribute will depend upon the element that carries 
+		it, although it is often displayed as a tooltip when the cursor comes over the element or while the element is 
+		loading.
+		
+		The class Attribute, The class attribute specifies one or more CSS classes for an HTML element. Multiple classes can 
+		be used on a single element with this attribute. The value of this attribute is a space-separated list of class 
+		names if you are specifying multiple classes.
+
+		The style Attribute, The style attribute allows you to write inline CSS rules for an element.
+	-->
+
 
 	<h1> Headings </h1> 
 
