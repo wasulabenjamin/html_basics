@@ -6,7 +6,7 @@
 	<title>HTML Basics</title>
 </head>
 <body>
-	<h1> Basic Tags </h1>
+	<h1>Basic Tags</h1>
 	<!--
 		HTML tags are the fundamental elements of HTML used for defining the structure of the document. These are letters 
 		or words enclosed by angle brackets (< and >).
@@ -14,7 +14,7 @@
 		browser reads the tags and displays the contents enclosed by them accordingly.
 	-->
 	
-	<h2> Heading Tags </h2>
+	<h2>Heading Tags</h2>
 	<!--
 		Heading tags are used to define headings of documents. You can use different sizes for your headings. 
 		HTML also has six levels of headings, which use the elements h1, h2, h3, h4, h5 and h6.
@@ -22,12 +22,12 @@
 
 		Following HTML code demonstrates various levels of headings:
 	-->
-	<h1> This is heading 1 </h1>
-	<h2> This is heading 2 </h2>
-	<h3> This is heading 3 </h3>
-	<h4> This is heading 4 </h4>
-	<h5> This is heading 5 </h5>
-	<h6> This is heading 6 </h6>
+	<h1>This is heading 1</h1>
+	<h2>This is heading 2</h2>
+	<h3>This is heading 3</h3>
+	<h4>This is heading 4</h4>
+	<h5>This is heading 5</h5>
+	<h6>This is heading 6</h6>
 
 	<!--
 		Line Break Tag: Whenever you use the <br/> element, anything following it starts from the next line.
@@ -38,7 +38,7 @@
 	<br/>
 	<br/>
 
-	<h2> Center Tags </h2>
+	<h2>Center Tags</h2>
 	<!--
 		Center Tag: The <center> tag aligns text, images, or other HTML elements in the middle of a web page.
 		Note: The <center> tag is deprecated in HTML5. You can use the CSS text-align property to center elements.
@@ -46,83 +46,88 @@
 		The following example demonstrates the use of the center tag. Here, we are displaying the second paragraph in center 
 		alignment:
 	-->
-	<p> This text is not in the center. </p>
- 	<center><p> This text is in the center. </p> </center>
+	<p>This text is not in the center.</p>
+ 	<center><p>This text is in the center.</p> </center>
 
- 	<h2> Horizonal Rule Tag </h2>
+ 	<h2>Horizonal Rule Tag</h2>
  	<!--
 		The horizontal rule (<hr>) tag displays a horizonal line. A horizontal line visually breaks up sections of a 
 		document. The <hr> tag creates a line from the current position in the document to the right margin and breaks the 
 		line accordingly.
+
+		The following example draws a horizontal line between two paragraphs:
  	-->
-	<p> The following example draws a horizontal line between two paragraphs: </p>
 	<p>This is paragraph one and should be on top</p>
   <hr/>
   <p>This is paragraph two and should be at bottom</p>
 
-  <h2> Preserve Formatting Tag </h2>
+  <h2>Preserve Formatting Tag</h2>
   <!--
 		The <pre> tag is used to preserve the formatting. Whenever you want to display content on the webpage exactly in the 
 		same format as it was written in the HTML document, you can use the <pre> tag. It preserves the formatting of source 
 		code, including line breaks and indentation.
+  	
+  	The following example demonstrates the use of the pre tag:
   -->
-  <p> The following example demonstrates the use of the pre tag: </p>
   <pre>
     function testFunction( strText ){
        alert (strText)
     }
   </pre>
 
-  <h2> Listing Tags </h2>
+  <h2>Listing Tags</h2>
   <!--
 		The <ul> and <ol> tags create the unordered and ordered listings, and to display list items, the <li> tag is used.
+  	
+  	The following example demonstrates the use of listing tags:
   -->
-  <p> The following example demonstrates the use of listing tags: </p>
-  <p> Unordered List </p>
+  <p>Unordered List</p>
   <ul>
-    <li> Item 1 </li>
-    <li> Item 2 </li>
-    <li> Item 3 </li>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
   </ul>
-  <p> Ordered List </p>
+  <p>Ordered List</p>
   <ol>
-    <li> Item 1 </li>
-    <li> Item 2 </li>
-    <li> Item 3 </li>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
   </ol>  
 
-	<h1> Elements </h1>
-	<p>
+	<h1>Elements</h1>
+	<!--
 		HTML elements are the basic building blocks to create a web page; they are created with the help of an opening tag, 
 		content, and ending tag. HTML documents consist of a tree of these elements, and they specify how HTML documents 
 		should be built, and what kind of content should be placed within various parts of an HTML document.
-	</p>
-	<p> Some of the examples of HTML elements are as follows: </p>
-	<p> This is paragraph content. </p>
-	<h1> This is heading content. </h1>
-	<div> This is division content. </div>
+	
+		Some of the examples of HTML elements are as follows:
+	-->
+	<p>This is paragraph content.</p>
+	<h1>This is heading content.</h1>
+	<div>This is division content.</div>
 
-	<h2> Nested HTML Elements </h2>
-	<p>
-		HTML allows nesting of elements. The nested elements are created by placing one or more HTML elements inside an HTML 
+	<h2>Nested HTML Elements</h2>
+	<!--
+		HTML allows nesting of elements. The nested elements are created by placing one or more HTML elements inside a HTML 
 		element. Where the container element can be considered as a parent element and others are as child elements.
-		The child elements are nested inside the parent element. We can have multiple levels of nesting; however, 
-		it requires some guidelines to follow 
-	</p>
-	<ul>
-		<li> Every opening tag must have a corresponding closing tag. </li>
-		<li> The closing tag of the parent element must come after the closing tag of the child element. </li>
-		<li> The nested elements must be valid HTML elements. </li>
-	</ul>
-	<p> In the below example, we are nesting the italicized element within the h1 element and underlined element within the paragraph element. </p>
-	<h1> This is an <i> italic </i> heading. </h1>
-  <p> This is an <u> underlined </u> paragraph. </p>
+		The child elements are nested inside the parent element. We can have multiple levels of nesting; however, it 
+		requires some guidelines to follow:
+		- Every opening tag must have a corresponding closing tag.
+		- The closing tag of the parent element must come after the closing tag of the child element.
+		- The nested elements must be valid HTML elements.
+		
+		In the below example, we are nesting the italicized element within the h1 element and underlined element within 
+		the paragraph element.
+	-->
+	<h1>This is an <i>italic</i> heading.</h1>
+  <p>This is an <u>underlined</u> paragraph.</p>
 
-  <h2> HTML Void Elements </h2>
-  <p> HTML void elements are those elements that don't require closing tags. These tags don't have any content model and 
-  even don't allow nesting of elements. The void elements are also known as empty or self-closing elements. </p>
-  <p> Some of the void elements are such as img, hr, and br elements. </p>
+  <h2>HTML Void Elements</h2>
   <!--
+  	HTML void elements are those elements that don't require closing tags. These tags don't have any content model and 
+  	even don't allow nesting of elements. The void elements are also known as empty or self-closing elements.
+	  Some of the void elements are such as <img>, <hr>, and <br> elements.
+
 		img: Used for inserting images within HTML documents.
 		hr: It displays a horizontal rule.
 		br: It is used to provide a line break.
@@ -130,62 +135,53 @@
   -->
 
   <h2>Attributes With HTML Elements</h2>
-  <p>
-  	Attributes can be placed with an opening tag by using the pairs of attribute name and value.
-  	Multiple attributes can be separated with a space.
-	</p>
 	<!--
+		Attributes can be placed with an opening tag by using the pairs of attribute name and value.
+  	Multiple attributes can be separated with a space.
+
 		The following statement demonstrates the use of two attributes src and alt with an HTML element img:
-		<img src="logo.jpg" alt="TutorialsPoint Logo" />
 	-->
 	<img src="logo.jpg" alt="TutorialsPoint Logo">
 
 	<h2>Mandatory Closing HTML Elements</h2>
-	<p>
-		The HTML elements that are opened must be closed. Only the void elements like img, hr, br, etc. do not require 
-		closing tags; other elements such as p and h1 require closing tags after the content part.
-	</p>
-	<p>
+	<!--
+		HTML elements that are opened must be closed. Only the void elements like img, hr, br, etc. do not require closing 
+		tags; other elements such as p and h1 require closing tags after the content part.
+	
 		If any HTML element does not include a closing tag, it may not cause an error, and some content may still display 
 		properly. However, never miss the closing tag, as it may lead to unexpected and inconsistent results.
-	</p>
+	-->
 
-	<h1> Attributes </h1>
-	<p>
+	<h1>Attributes</h1>
+	<!--
 		HTML attributes are special words that provide additional information to an HTML element. Attributes are placed 
 		inside the element's opening tag, and they are used to configure or adjust the element's behavior. All attributes 
 		are made up of two parts: a name and a value. 
-	</p>
-	<p>
+
 		Name: The attribute name is the keyword, also known as the attribute identifier, which defines a specific 
 		characteristic for the element in which it is using. For example, the paragraph, p, element (in the below-given 
 		example) has an attribute "align", which defines the alignment of the paragraph on the page.
-	</p>
-	<p>
-		Value: The attribute value is the data or information that defines the value to be set for that attribute. The value 
-		is assigned within the double quotes. For example, "left", "center", or "right" can be assigned to the "align" 
+		
+		Value: The attribute value is the data or information that defines the value to be set for that attribute. The 
+		value is assigned within the double quotes. For example, "left", "center", or "right" can be assigned to the "align" 
 		attribute with the paragraph tag (as shown in the below example).
-	</p>
-	<p>Below is the syntax of an element HTML having attribute:</p>
+	
+		Rules and Characteristics
+		The following are the rules and characteristics of HTML attributes; you should follow while using attributes with 
+		HTML elements:
+		- Attributes are optional; you can use them to provide additional information about an HTML element.
+		- Attributes have name and value pairs, but some of the attributes do not require any value; those are known as 
+			Boolean attributes.
+		- A HTML element can have multiple attributes, and they should be separated by spaces.
+		- Attributes should always be written with the opening tag.
+		- W3C recommends using attributes in lowercase and keeping the value in quotes.
+
+		Below is the syntax of an element HTML having attribute:
+	-->
 	<p align="right">Right aligned paragraph</p>
 	<p align="left">Left aligned paragraph</p>
 	<p align="center">Center aligned paragraph</p>
 
-	<h2>Rules and Characteristics</h2>
-	<p>
-		The following are the rules and characteristics of HTML attributes; you should follow while using attributes with 
-		HTML elements:
-	</p>
-	<ul>
-		<li>Attributes are optional; you can use them to provide additional information about an HTML element.</li>
-		<li>
-			Attributes have name and value pairs, but some of the attributes do not require any value; those are known as 
-			Boolean attributes.
-		</li>
-		<li>A HTML element can have multiple attributes, and they should be separated by spaces.</li>
-		<li>Attributes should always be written with the opening tag.</li>
-		<li>W3C recommends using attributes in lowercase and keeping the value in quotes.</li>
-	</ul>
 
 	<h2>HTML Core Attributes</h2>
 	<!--
@@ -209,6 +205,12 @@
 
 		The style Attribute, The style attribute allows you to write inline CSS rules for an element.
 	-->
+	<p id="html">This paragraph explains what is HTML</p>
+  <p id="css">This paragraph explains what is Cascading Style Sheet</p>
+
+  <h3 title="Hello HTML!">Titled Heading Tag Example</h3>
+
+  <p style="font-family:arial; color:greenyellow;">Welcome to tutorials 1, basics</p>
 
 
 	<h1> Headings </h1> 
