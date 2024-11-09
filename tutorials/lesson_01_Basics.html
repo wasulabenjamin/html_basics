@@ -212,6 +212,74 @@
 
   <p style="font-family:arial; color:greenyellow;">Welcome to tutorials 1, basics</p>
 
+  <h2>HTML Internationalization Attributes</h2>
+  <!--
+		There are three internationalization attributes, which are available for most (although not all) XHTML elements.
+
+		The dir Attribute 
+		This attribute allows you to indicate to the browser about the direction in which the text should flow. 
+		The dir attribute can take one of two values, ltr (Left to right, the default value) or rtl (Right to left)
+		When dir attribute is used within the <html> tag, it determines how text will be presented within the entire 
+		document. When used within another tag, it controls the text's direction for just the content of that tag.
+
+		The lang Attribute
+		The lang attribute allows you to indicate the main language used in a document, but this attribute was kept in HTML 
+		only for backwards compatibility with earlier versions of HTML. This attribute has been replaced by the xml:lang 
+		attribute in new XHTML documents. The values of the lang attribute are ISO-639 standard two-character language codes.
+		Check HTML Language Codes: ISO 639 for a complete list of language codes.
+
+		HTML Boolean Attributes
+		Boolean attributes represent true and false values and do not require any value with the attribute name. 
+		To set the true value, you need to write the attribute's name, and to set it false, the attribute should be omitted 
+		altogether. Here are some Boolean attributes:–
+			disabled
+			readonly
+			required
+			inert
+			autocomplete
+
+		xml:lang Attribute
+		The xml:lang attribute is the XHTML replacement for the lang attribute. The value of the xml:lang attribute should 
+		be an ISO-639 country code.
+
+		HTML Generic Attributes
+		Here's a table of some other attributes that are readily usable with many of the HTML tags.
+			- align:	right, left, center	
+				Horizontally aligns tags
+			- valign:	top, middle, bottom
+				Vertically aligns tags within an HTML element.
+			- bgcolor:	numeric, hexidecimal, RGB values
+				Places a background color behind an element
+			- background:	URL
+				Places a background image behind an element
+			- id:	User Defined
+				Names an element for use with Cascading Style Sheets.
+			- class:	User Defined
+				Classifies an element for use with Cascading Style Sheets.
+			- width:	Numeric Value	
+				Specifies the width of tables, images, or table cells.
+			- height:	Numeric Value	
+				Specifies the height of tables, images, or table cells.
+			- title:	User Defined	
+				"Pop-up" title of the elements.
+
+		Best Practices for Using HTML Attributes
+		There are certain practices you should follow to use attributes on any element:
+		- Write Values in Quotes: You should always write the attribute values in single or double quotes.
+		- Use Lowercase: HTML is case-insensitive, but the good practice is to write the HTML attribute in lowercase.
+  -->
+  <p dir="ltr">Left to right paragraph example</p>
+  <p dir="rtl">Right to left paragraph example</p>
+
+  <form>
+	  <label for="user_name">Input User Name:</label>
+	  <input type="text" id="user_ds" name="user_ds" placeholder="disabled" disabled>
+	  <input type="text" id="user_ro" name="user_ro" placeholder="readonly" readonly>
+	  <input type="text" id="user_rq" name="user_rq" placeholder="required" required>
+	  <input type="text" id="user_in" name="user_in" placeholder="inert" inert>
+	  <input type="text" id="user_ac" name="user_ac" placeholder="autocomplete" autocomplete>
+	  <input type="submit">
+	</form>
 
 	<h1> Headings </h1> 
 
