@@ -4,15 +4,16 @@
 	</a>
 </p>
 
-<h3 align="center"> HTML Basics </h3>
+<h3 align="center">HTML Basics</h3>
 
 <p align="center">
     Getting started with HTML.
     <br> <br>
-    <a href="https://github.com/wasulabenjamin/html_basics.git"> View Demo </a> . 
-    <a href="https://github.com/wasulabenjamin/html_basics/issues/new?template=bug_report.md"> Report Bug </a> . 
-    <a href="https://github.com/wasulabenjamin/html_basics/issues/new?template=feature_request.md"> Request Feature </a>
+    <a href="https://github.com/wasulabenjamin/html_basics.git">View Demo</a> . 
+    <a href="https://github.com/wasulabenjamin/html_basics/issues/new?template=bug_report.md">Report Bug</a> . 
+    <a href="https://github.com/wasulabenjamin/html_basics/issues/new?template=feature_request.md">Request Feature</a>
 </p>
+
 
 <p align="center">
 	<br> <br>
