@@ -39,17 +39,6 @@
 	<br/>
 	<br/>
 
-	<h2>Center Tags</h2>
-	<!--
-		Center Tag: The <center> tag aligns text, images, or other HTML elements in the middle of a web page.
-		Note: The <center> tag is deprecated in HTML5. You can use the CSS text-align property to center elements.
-
-		The following example demonstrates the use of the center tag. Here, we are displaying the second paragraph in center 
-		alignment:
-	-->
-	<p>This text is not in the center.</p>
- 	<center><p>This text is in the center.</p> </center>
-
  	<h2>Horizonal Rule Tag</h2>
  	<!--
 		The horizontal rule (<hr>) tag displays a horizonal line. A horizontal line visually breaks up sections of a 
@@ -443,9 +432,99 @@
     </ul>
  	</div>
 
-	<h1>Style Shee</h1>
+	<h1>Style Sheet</h1>
+	<!--
+		CSS, or Cascading Style Sheets, is a tool that defines how web documents look on screens or in print. Since its 
+		introduction in 1994, the W3C has encouraged the use of style sheets for web design. CSS lets you control the 
+		presentation of your content, whether it's on a screen, in print, or for accessibility, making web design more 
+		flexible and efficient.
+		
+		Cascading Style Sheets (CSS) provide easy and effective alternatives to specify various attributes for the HTML 
+		tags. Using CSS, you can specify a number of style properties for a given HTML element.
+		
+		Each property has a name and a value, separated by a colon (:). 
+		Each property declaration is separated by a semicolon (;).
 
-	<h1>Formattin</h1>
+		There are three ways to include CSS in your HTML document:
+			- External CSS: Define style sheet rules in a separate .css file and then include that file in your HTML document 
+				using HTML <link> tag.
+			- Internal CSS: Define style sheet rules in the header section of the HTML document using <style> tag.
+			- Inline CSS: Define style sheet rules directly along-with the HTML elements using style attribute.
+	-->
+	<p>Example to Use Internal CSS in HTML</p>
+	<style type="text/css">
+    .red {
+      color: red;
+    }
+    .thick {
+      font-size: 20px;
+    }
+    .green {
+      color: green;
+    }
+  </style>
+  <p class="red">This is red</p>
+  <p class="thick">This is thick</p>
+  <p class="green">This is green</p>
+  <p class="thick green">This is thick and green</p>
+
+  <hr>
+	<p>Example to Use Inline CSS in HTML</p>
+  <p style="color:red;">This is red</p>
+  <p style="font-size:20px;">This is thick</p>
+  <p style="color:green;">This is green</p>
+  <p style="color:green;font-size:20px;">This is thick and green</p>
+
+	<h1>Formatting</h1>
+	<!--
+		HTML formatting defines the way of content representation on the webpage to improve the readability, to give the 
+		semantic meaning, and to improve visual styling. HTML formatting is done by using HTML physical and logical tags.
+
+		Physical Tags:
+		These tags are used to give the visual appearance to the textual content.
+
+		Logical Tags:
+		These tags are used to give logical and semantic meaning to the textual content.
+		There are a few logical tags that are used for screen readers, but the impact of those tags is visible on the 
+		browsers.
+		
+		Without formatting, nothing looks good or soothing to our eyes. But HTML formatting is not only for soothing the eye 
+		or making textual content attractive. There are few reasons to do the HTML formatting.
+
+		HTML formatting is useful in many aspects:
+		- The appearance of any text provides a clear view of the content intent, such as highlighting the keywords, putting 
+			meaningful information in the quotations, underlining the main sentence, etc.
+		- Formatting helps search engines understand the content structure and is also helpful for search engine 
+			optimization.
+		- Formatting improves the visual layout and improves the readability of the content.
+
+		The following table has a list of common HTML formatting tags that are used for text formatting:
+		Physical Tags
+			<b>.......	This tag is used to make the text bold.
+			<i>.......	This tag is used to make the text italic.
+			<small>...	This tag is used to make the text smaller.
+			<u>.......	This tag is used to underline text.
+		Logical Tags
+			<strong>..	This tag is used to bold text and give it semantic importance.
+			<em>......	This tag is used to italicize text and give it semantic emphasis.
+		Other Tags
+			<sup>.....	This tag is used to make superscript text (slightly above the normal line).
+			<sub>.....	This tag is used to make subscript text (slightly below the normal line).
+			<ins>.....	This tag is used to indicate that content has been added (typically underlined).
+			<del>.....	This tag is used to indicate that content has been deleted (typically struck through).
+			<mark>....	This tag is used to highlight text with a yellow background.
+	-->
+	<p>Example of a <b>bold</b> text</p>
+	<p>Example of a <i>italic</i> text</p>
+	<p>Example of a <small>small</small> text</p>
+	<p>Example of a <u>underlined</u> text</p>
+	<p>Example of a <strong>strong</strong> text</p>
+	<p>Example of a <em>emphasized</em> text</p>
+	<p>Example of a <sup>superscript</sup> text</p>
+	<p>Example of a <sub>subscript</sub> text</p>
+	<p>Example of a <ins>inserted</ins> text</p>
+	<p>Example of a <del>deleted</del> text</p>
+	<p>Example of a <mark>marked</mark> text</p>
 
 	<h1>Quotation</h1>
 
@@ -455,15 +534,15 @@
 
 	<h1>Image</h1>
 
-	<h1>Image Ma</h1>
+	<h1>Image Map</h1>
 
 	<h1>Iframe</h1>
 
-	<h1>Phrase Element</h1>
+	<h1>Phrase Elements</h1>
 
-	<h1>Meta Tag</h1>
+	<h1>Meta Tags</h1>
 
-	<h1>Classe</h1>
+	<h1>Classes</h1>
 
 	<h1>ID</h1>
 
