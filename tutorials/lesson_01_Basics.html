@@ -550,11 +550,60 @@
 	<p>Example of a <bdo>bdo</bdo> quotation</p>
 	<p>Example of a <abbr>abbreviation</abbr> quotation</p>
 
-	<h1>Comment</h1>
-
 	<h1>Color</h1>
+	<!--
+		HTML colors are a way of specifying the appearance of web elements. They are very important aspects of web design, 
+		as they not only enhance the visual appeal but also influence user behavior. They are also used to evoke emotions 
+		and highlight important content.
+
+		In HTML, colors are generally defined for backgrounds, borders, and texts.
+		To specify the colors, the style attribute of HTML elements is used.
+
+		The following three methods are used to set colors in a web page −
+			- Color names: We can specify color names directly, like green, blue, or red.
+			- Hex codes: A six-digit code representing the amount of red, green, and blue that makes up the color. #000033
+			- Color decimal or percentage values; This value is specified using the rgb() property.
+	-->
+	<p style="background-color: teal;">This paragraph has its background color as <b>Teal</b>.</p>
+	<p style="background-color: #FFFF66;">This paragraph has its background color as <b>#FFFF66</b>.</p></p>
+	<p style="border: 2.5px solid teal;">This paragraph has its border color as <b>Teal</b>.</p>
 
 	<h1>Image</h1>
+	<!--
+		HTML images provide visual content for web pages, enhancing user experiences and conveying information. 
+		They can be photographs, graphics, icons, or illustrations.
+		HTML offers various elements for embedding, manipulating, and controlling images, contributing to the aesthetics and 
+		functionality of websites. Understanding image tags, attributes, and responsive design principles is essential for 
+		effective web development.
+
+		The following is the basic syntax for HTML images:
+			- src: The src attribute defines the path of the image (image URL).
+			- alt: The alt attribute defines the alternate text; 
+						 if there is a broken link to the image path, the alternate text displays on the webpage.
+			- width and height: The width and height attribute define the height and width for the image.
+
+		You can use PNG, JPEG, or GIF image files based on your comfort, but make sure you specify the correct image 
+		file name in the src attribute. The image name is always case-sensitive.
+		The alt attribute is an optional attribute but recommended as it specifies an alternate text for an image if the 
+		image cannot be displayed.
+
+		Bordered Image
+		You can specify the border and its thickness in terms of pixels using the border attribute. 
+		A thickness of 0 means there is no border around the picture.
+
+		Image Alignement
+		By default, the image will align at the left side of the page, but you can use the align attribute to set it in the 
+		center or right.
+
+		Animated Images
+		You can also use animated images (having .gif extensions) on the webpages. 
+		There is no specific attribute required to show animated images; you can simply set the path of the animated image 
+		(.gif) in the src attribute.
+	-->
+	<img src="../assets/img/icons8_joomla_480px.png" alt="icons8_joomla_480px.png" width="200px" height="150px">
+	<img src="../assets/img/icons8_joomla_480px.png" alt="icons8_joomla_480px" width="200px" height="150px" border="3">
+	<img src="../assets/img/icons8_joomla_480px.png" alt="joomla" align="right" width="200px" height="150px" border="3">
+	<img src="../assets/img/animated_image.gif" alt="gif" align="right" width="200px" height="150px" border="3">
 
 	<h1>Image Map</h1>
 
