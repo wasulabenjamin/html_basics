@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -338,10 +338,11 @@
 		communication, and enhancing the overall user experience on a website.
 	-->
 	<p>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-		aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-		Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-		sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		It is important to take care of the pain itself, and it will be followed by the growth of the patient, but at the 
+		same time it will happen that there is a lot of work and pain. For to come to the smallest detail, no one should 
+		practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the reprimand in 
+		the pleasure he wants to be a hair from the pain in the hope that there is no breeding. Unless they are blinded by 
+		lust, they do not come out; they are in fault who abandon their duties and soften their hearts, that is toil.
 	</p>
 
 	<p>This is a paragraph with a <br> line break. </p>
@@ -606,6 +607,53 @@
 	<img src="../assets/img/animated_image.gif" alt="gif" align="right" width="200px" height="150px" border="3">
 
 	<h1>Image Map</h1>
+	<!--
+		HTML image maps are defined by the <map> tag. An image map enables specific areas of an image to be clickable, 
+		acting as links to different destinations.
+		By defining various shapes (rectangles, circles, and polygons) within an image, each with its own associated link, 
+		developers can create dynamic and interactive visual content that enhances user engagement and navigation.
+
+		Image maps are useful for creating complex navigation, interactive diagrams, or engaging visual experiences, 
+		enhancing user engagement and interactivity on web pages. It is useful to create interactive graphics by defining 
+		clickable regions within an image. This allows users to interact with different image parts, triggering specific 
+		actions or links.
+
+		The <map> tag is used to create a client-side image map, turning specific regions of an image into interactive 
+		elements. This allows users to click on different areas of the image, triggering various actions. The <map> element 
+		serves as a container for <area> elements, each defining a clickable region with specific attributes.
+		When used in conjunction with the <img> tag, the <map> tag establishes a connection between the image and its 
+		associated map. This enables web developers to create dynamic and interactive content by defining distinct clickable 
+		zones within an image.
+
+		The <area> tag is used within the <map> tag to define clickable regions on an image. 
+		It specifies the shape, coordinates, and associated actions for each clickable area.
+			<area shape="rect" coords="x1,y1,x2,y2" href="url" alt="Description">
+
+		You can define a circular shape by assigning the circle value to the shape attribute. 
+		The circular shape requires center coordinates (x, y) and radius (r) that you can define in coords attribute.
+			<area shape="circle" coords="x,y,r" href="url" alt="Description">
+
+		You can define a polygon shape by assigning the poly value to the shape attribute.
+		The polygon shape requires a series of coordinates to form the shape that you can define in coords attribute.
+		This can be used to create any shape, whether it be a mango or apple.
+			<area shape="poly" coords="x1,y1,x2,y2,..,xn,yn" href="url" alt="Description">
+
+		To create an image map in HTML, follow these steps with a code example −
+			Step 1: Prepare Your Image
+				Begin with the image you want to use as an image map. For this example, we'll use an image file named logo.png. 
+				Use the usemap attribute in the <img> tag to link the image to the <map> tag by keeping its value to the name 
+				attribute of the <map>:
+			Step 2: Define the Image Map
+				Use the <map> tag to define the image map and give it a unique name with the name attribute.
+			Step 3: Define Clickable Areas
+				Within the <map> element, define clickable areas using <area> tags. 
+				Specify the shape (rect, circle, or poly), coordinates, and the URL to link to.
+	-->
+	<img src="../assets/img/icons8_kenya_480px.png" usemap="#map_kenya">
+	<map name="map_kenya">		
+		<area shape="circle" coords="45,32,49" href="../index.html" alt="HTML Basics">
+		<area shape="rect" coords="245,50,85,9" href="../index.html" alt="HTML Basics">
+	</map>
 
 	<h1>Iframe</h1>
 
