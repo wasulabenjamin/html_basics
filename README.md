@@ -1,5 +1,5 @@
 <p align="center">
-	<a href="">
+	<a href="https://github.com/wasulabenjamin/html_basics.git">
 		<img src=".github/img/icons8_html_filetype_100px.png" alt="logo">
 	</a>
 </p>
