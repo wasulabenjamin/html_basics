@@ -1,16 +1,6 @@
 # CHANGELOG
 
-## v2024.11.04
-
-### Added or Changed
-
-- Added codacy code-quality badge to README
-
-### Fixed or Removed
-
-- Nothing was fixed or removed
-
-## v2024.11.02
+## v2024.11
 
 ### Added or Changed
 

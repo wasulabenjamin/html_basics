@@ -1,10 +1,14 @@
 {
-  "short_name": "",
-  "name": "",
+  "short_name": "HTML Basics",
+  "name": "HTML Basics",
   "icons": [{
-    "src": "icon.png",
+    "src": "assets/img/icon.png",
     "type": "image/png",
     "sizes": "192x192"
+  },{
+    "src": "assets/img/icon_512px.png",
+    "type": "image/png",
+    "sizes": "512x512"
   }],
   "start_url": "/?utm_source=homescreen",
   "background_color": "#fafafa",
