@@ -891,6 +891,69 @@
 	<p id="content" style="display: none;">This content can be toggled by clicking the button.</p>
 
 	<h1>Background</h1>
+	<!--
+		The background of a webpage is a layer behind its content, which includes text, images, colors, and various other 
+		elements. It is an essential part of web design that improves the overall look of a web page as well as the user 
+		experience. HTML offers multiple attributes and properties for manipulating the background of elements within a 
+		document.
+
+		By default, our webpage background is white in color. We may not like it, but no worries. 
+		HTML provides background with Colors or background with Images as ways to decorate our webpage background:.
+
+		Following are some example codes that show how to set different styles of background for an HTML document.
+			- Setting Color for Background
+			- Setting Image as Background
+			- Background Repeat and Position
+			- Setting Patterned Backgrounds
+
+		HTML allows us to specify an image as the background of our HTML web page or table. The background and 
+		background-image can be used to control the background image of an HTML element, specifically page body and table 
+		backgrounds. 
+
+		Although you can set an image as the background using just HTML, in order to control it's behavior, like repeating 
+		and positioning, we need to use CSS. CSS offers options for controlling how background images repeat and their 
+		positioning. The background-repeat property specifies whether the image should repeat horizontally, vertically, 
+		both, or neither. Furthermore, the background-position property empowers developers to determine where the 
+		background image should be positioned within the element.
+		
+		You might have seen many patterns or transparent backgrounds on various websites. This can simply be achieved by 
+		using a patterned image or transparent image in the background. It is suggested that while creating patterns or 
+		transparent GIF or PNG images, use the smallest dimensions possible, even as small as 1x1 to avoid slow loading.
+	-->
+	<div style="background-color: #3498db;">
+    <h1>Setting Color for Background</h1>
+    <p>This is an example of a styled div with a background color and text color.</p>
+  </div>
+
+  <div style="
+  	background: url(../assets/img/icon.png);
+  	border: 1px solid red;
+  	height: 500px;
+		margin-bottom: 5px;
+  ">
+  	<h1>Setting Image as Background</h1>
+    <p>This is an example of a styled div with a background image and text color.</p>
+  </div>
+
+  <div style="
+  	background: url(../assets/img/icon.png);
+	  background-repeat: repeat-x;
+	  background-position: center;
+  	border: 1px solid red;
+	  justify-content: center;
+	  align-items: center;
+	  display: block;
+	  height: 500px;
+  ">
+  	<h1>Background Repeat and Position</h1>
+    <p>This is an example of a styled div with a background repeat and text color.</p>
+  </div>
+
+  <table background="../assets/img/animated_image.gif" width="512px" height="224px">
+  	<tr>
+  		<td>This is an example of a styled div with a patterned background and text color.</td>
+  	</tr>
+  </table>
 
 </body>
 </html>
