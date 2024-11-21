@@ -8,9 +8,95 @@
 </head>
 <body>
 	<h1>Tables</h1>
+	<!--
+		HTML tables represent data, such as text, images, etc. in a structured format with rows and columns. HTML tables 
+		offer a visual structure that aids in clarity and comprehension, making them a fundamental element in web 
+		development.
+
+		HTML tables are used for various reasons, primarily centered around organizing and presenting data effectively. Some 
+		key purposes include:−
+			- Structuring Data: Tables provide a coherent structure for organizing and displaying data, making it easier for 
+				users to interpret information.
+			- Comparative Presentation: When there is a need to compare different sets of data side by side like difference 
+				between two concepts, tables offer a clear and visually accessible format.
+			- Tabular Data Representation: Information that naturally fits into rows and columns, such as schedules, 
+				statistics, or pricing tables, can be well-represented using HTML tables.
+		
+		You can create a table in HTML by using the <table> tag along with several tags that define the structure and 
+		content inside the table. The primary tags that are used with the <table> tag are <tr>, <td>, and <th>.
+			- <table> Tag: This tag is used to create the table that wrap the rows and columns within it.
+			- <tr> Tag: Stands for "table row" and is used to create a row within the table.
+			- <td> Tag: Represents "table data" and is used to create standard cells within a row.
+			- <th> Tag: Represents "table header" and is used to create header cells within a row.
+		
+		Rows, Each row in an HTML table is defined using the `<tr>` tag. It contains a set of table cells 
+		(`<td>` or `<th>`), representing the individual elements within that row.
+
+		Columns: The actual data or header information is contained within the table cells. Cells in the same position in 
+		different rows form a column.
+			A table row is defined by the <tr> tag. 
+			To set table header, we use <th> tag. 
+			To insert data in table cell, use the <td> tag.
+
+		A table in HTML consists of table cells inside rows and columns of the table.
+		Table heading is defined by the <th>...</th>. Data inside the <th> are the headings of the column of a table.
+		Each table cell is defined by a <td>...</td> tag. Data inside the <td> tag are the content of the table rows and columns.
+		Each table row starts with a <tr> ....</tr> tag.
+		We use style sheet to create border for the table.
+		
+		Consider a table representing a simple list of products with their respective categories and prices. This basic table structure organizes data in a clear, tabular format, making it easy to read and understand. Here, the border is an attribute of <table> tag and it is used to put a border across all the cells. If you do not need a border, then you can use border="0".
+
+		You can also style an HTML table using CSS properties to give it a custom appearance. Either you can create classes 
+		to apply styles on a table, or you can simply write internal CSS properties to style the table.
+
+		You can set the background color and background image of an HTML table by using the CSS and attributes of the 
+		<table> tag. Using table tag's attributes is an old (outdated) style. It is recommended that you should use CSS to 
+		style an HTML table. The background-color and background-image properties are used to set background color and 
+		image respectively.
+		
+		The table's width and height can be set using either attributes or CSS properties.
+		These values can be defined in pixels or percentages.
+
+		Nested HTML tables refer to create tables inside a table. You can create tables inside a table by using the <table> 
+		tab inside any <td> tag, it creates another table in the main table's cell.
+
+		The following are the table-related tags.
+			- <table>........	It is used to create HTML table.	
+			- <thead>........	This tag is used to define table header section.	
+			- <tbody>........	This tag is used to define table body section.	
+			- <tfoot>........	This tag is used to define the table footer section.	
+			- <th>...........	This tag defines the header of the table.	
+			- <tr>...........	This tag defines a table row.	
+			- <col>..........	This tag is used to offer information about columns.	
+			- <colgroup>.....	This tag describes the collection of one or more columns in a table for formattig.	
+			- <td>...........	This tag is used to store table data of each cell.	
+			- <caption>......	This tag specifies the caption for the table.	
+	-->
+	<table border="">
+		<tr>
+			<th>Column Head 1</th>
+			<th>Column Head 2</th>
+			<th>Column Head 3</th>
+		</tr>
+		<tr>
+			<td>Row 01, Column 01</td>
+			<td>Row 01, Column 02</td>
+			<td>Row 01, Column 03</td>
+		</tr>
+		<tr>
+			<td>Row 02, Column 01</td>
+			<td>Row 02, Column 02</td>
+			<td>Row 02, Column 03</td>
+		</tr>
+	</table>
+
 	<h1>Headers & Caption</h1>
+
 	<h1>Table Styling</h1>
+
 	<h1>Table Colgroup</h1>
+
 	<h1>Nested Tables</h1>
+
 </body>
 </html>
