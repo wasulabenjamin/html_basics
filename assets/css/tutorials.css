@@ -1,5 +1,10 @@
 /***** HEADINGS   *****************************************************************************************************/
-h1, h2, h3, h4, h5, h6 {
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
 	font-family: Verdana;
 }
 
@@ -42,7 +47,11 @@ iframe {
 }
 
 /***** TABLES   *******************************************************************************************************/
-table {
+table:not(
+	.zebra-table-hv,
+	.table-horizontal-dividers,
+	.table-hover
+) {
 	background-color: #f2f2f2;
 	background-image: url('../img/icon.png');
 	border-collapse: collapse;
@@ -51,14 +60,51 @@ table {
 	height: 5px;
 }
 
-tr {}
+col {
+	color: red;
+	background-color: greenyellow;
+}
 
-th, td {
+th, 
+td {
 	border: 1px solid #ddd;
 	padding: 8px;
 	text-align: left;
 }
 
-th {
+.zebra-table-horizontal th,
+.zebra-table-vertical th {
+	text-align: center;
+	vertical-align: middle;
 }
 
+.zebra-table-horizontal tr:nth-child(even) {
+	background-color: #8a83de;
+}
+
+.zebra-table-vertical th:nth-child(even),
+.zebra-table-vertical td:nth-child(even) {
+	background-color: #8a83de;
+}
+
+.zebra-table-hv tr:nth-child(even) {
+   background-color: rgba(150, 212, 212, 0.4);
+}
+
+.zebra-table-hv th:nth-child(even),
+.zebra-table-hv td:nth-child(even) {
+   background-color: rgba(212, 150, 192, 0.4);
+}
+
+.table-horizontal-dividers tr {
+	border-bottom: 5px solid #ddd;
+}
+
+.table-horizontal-dividers td {
+	padding: 10px;
+	border: 0px;
+}
+
+.table-hover tr:hover {
+	background-color: red;
+}
