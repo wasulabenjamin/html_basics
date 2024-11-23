@@ -232,11 +232,11 @@
 	-->
 		<table class="zebra-table-horizontal">
 		<caption>Zebra Table - Horizontal</caption>
+		<colgroup>
+			<col style="width: 100px;">
+			<col style="width: 150px;">
+		</colgroup>
 		<thead>
-			<colgroup>
-				<col style="width: 100px;">
-				<col style="width: 150px;">
-			</colgroup>
 			<tr>
 				<th>Column 01 Heading</th>
 				<th>Column 02 Heading</th>
@@ -282,11 +282,11 @@
 
 	<table class="zebra-table-vertical">
 		<caption>Zebra Table - Horizontal</caption>
+		<colgroup>
+			<col style="width: 100px;">
+			<col style="width: 150px;">
+		</colgroup>
 		<thead>
-			<colgroup>
-				<col style="width: 100px;">
-				<col style="width: 150px;">
-			</colgroup>
 			<tr>
 				<th>Column 01 Heading</th>
 				<th>Column 02 Heading</th>
@@ -339,11 +339,11 @@
 	-->
 	<table class="zebra-table-hv">
 		<caption>Zebra Table - Horizontal</caption>
+		<colgroup>
+			<col style="width: 100px;">
+			<col style="width: 150px;">
+		</colgroup>
 		<thead>
-			<colgroup>
-				<col style="width: 100px;">
-				<col style="width: 150px;">
-			</colgroup>
 			<tr>
 				<th>Column 01 Heading</th>
 				<th>Column 02 Heading</th>
@@ -491,8 +491,84 @@
 	</table>
 
 	<h1>Table Colgroup</h1>
+	<!-- 
+		HTML Table Colgroup
+		In HTML, the <colgroup> element is used to define a group of columns in a table. It allows you to apply properties 
+		to multiple columns simultaneously, providing a more efficient way to style or format columns.
+
+		The <colgroup> is often used in conjunction with the <col> element, where each <col> tag represents an individual 
+		column within the group. This grouping enhances readability and simplifies the application of styles or attributes 
+		to specific columns in a table.
+
+		Using <colgroup> in HTML involves the following steps −
+			- Place the <colgroup> tag within the <table> element, usually before the <thead> section.
+			- Inside the <colgroup> tag, use one or more <col> tags to represent each column. 
+				Specify attributes or styles for the columns within these <col> tags.
+			- Define attributes or styles for the columns by adding attributes such as span, width, style, or class to 
+				the <col> tags.
+	-->
 
 	<h1>Nested Tables</h1>
+	<!--
+		HTML nested tables refer to the table where one or more tables are placed inside it; the inner tables are placed 
+		inside the <td> tag. The nested tables involve the utilization of one table within another, providing a versatile 
+		way to structure complex data layouts.
+
+		Various elements, including other HTML tags, can be incorporated within table cells (<td>).
+
+		Not only can tables be nested, but various HTML tags can also be used within the <td> (table data) tag for arranging 
+		contents in a structured manner.
+	-->
+	<table class="table-hover">
+		<caption>Table with Hover Effect</caption>
+		<thead>
+			<tr>
+				<th>Column 01 Heading</th>
+				<th>Column 02 Heading</th>
+				<th>Column 03 Heading</th>
+				<th>Column 04 Heading</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Row 01, Column 01</td>
+				<td>Row 01, Column 02</td>
+				<td>Row 01, Column 03</td>
+				<td>Row 01, Column 04</td>
+			</tr>
+			<tr>
+				<td>Row 02, Column 01</td>
+				<td>Row 02, Column 02</td>
+				<td>Row 02, Column 03</td>
+				<td>Row 02, Column 04</td>
+			</tr>
+			<tr>
+				<td colspan="4">
+					<table>
+						<caption>Nested Table</caption>
+						<tr>
+							<td>Nested Table Col 01</td>
+							<td>Nested Table Col 02</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>Row 04, Column 01</td>
+				<td>Row 04, Column 02</td>
+				<td>Row 04, Column 03</td>
+				<td>Row 04, Column 04</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>Column 01 Footer</td>
+				<td>Column 02 Footer</td>
+				<td>Column 03 Footer</td>
+				<td>Column 04 Footer</td>
+			</tr>
+		</tfoot>
+	</table>
 
 </body>
 </html>
