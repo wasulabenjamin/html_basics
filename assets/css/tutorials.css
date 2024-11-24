@@ -110,3 +110,31 @@ td {
 }
 
 /***** LISTS   ********************************************************************************************************/
+.list-nested {
+	color: red;
+}
+
+ul {
+/*	padding: 0;*/
+}
+
+li {
+	font-size: 16px;
+}
+
+ul li {
+/*	list-style-type: square;*/
+	/*margin-bottom: 8px;					/* Adds spacing between list items */
+	/*background-color: #f0f0f0;	/* Background color */
+	/*border: 1px solid #ccc;	/* Border */
+	/*padding: 8px;	/* Padding inside each list item */
+	/*transition: background-color 2s;	/* Smooth transition effect */
+}
+
+li:hover {
+	background-color: red;	/* Change background on hover */
+}
+
+ol li {
+/*	list-style-type: lower-roman;*/
+}

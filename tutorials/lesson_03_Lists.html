@@ -8,8 +8,173 @@
 </head>
 <body>
 	<h1>Lists</h1>
+	<!--
+		HTML Lists are a group or collection of items. These items can be both organized and unorganized depending on the 
+		requirement. They help in organizing, structuring, and presenting information to make it more user-friendly, 
+		readable, and accessible.
+
+		To display a list of information in HTML, we use various list tags like <ul>, <ol>, <dl> and <ll>. HTML offers web 
+		developers three ways for specifying lists of information, namely ordered, unordered, and definition lists. 
+		All lists must contain one or more list elements. 
+
+		In addition to the mentioned types of lists, there are some other important list-related elements and concepts that 
+		also contribute to effective document structuring.
+
+		Nested Lists
+		A list created within another list is known as a nested list. 
+		HTML also allows nesting of lists within one another to generate complex document structures.
+
+		Grouping Lists Inside <div> Tag
+		To enhance styling and layout, lists are often wrapped inside the <div> elements. 
+		This grouping aids in applying consistent styles and creating visually appealing list structures.
+	-->
+	<div class="list-nested">
+		<caption>Unordered List</caption>
+		<ul>
+			<li>Unordered List Item 01</li>
+			<li>
+				Unordered List Item 02
+				<ul>
+					<li>Sub-Item 01</li>
+					<li>Sub-Item 02</li>
+					<li>Sub-Item 03</li>
+				</ul>
+			</li>
+			<li>Unordered List Item 03</li>
+		</ul>
+	</div>
+	
 	<h1>Unordered Lists</h1>
+	<!--
+		Unordered lists display lists of items that are not in a specific order. The unordered lists are marked with bullet 
+		points. To create an unordered list, the <ul> tag is used along with the <li> tag. 
+		Here, the <li> tag specifies the list items.
+
+		Unordered List - type Attribute
+		The type attribute for the <ul> tag is used to specify the type of bullet for the unordered list in HTML. 
+		By default, disc bullet type is used. But we can change this with the help of the following options:
+			- disc: It is the default type of marker.
+			- square: List items will be displayed with a square marker.
+			- circle: It will set the marker to a hollow circle.
+
+		Unordered List Without Bullets
+		You can also display the list items of an unordered list without showing the bullets. 
+		To display an unordered list without bullets, define the "none" to the list-style-type property.
+	-->
+	<caption>Unordered List</caption>
+	<ul>
+		<li>Unordered List Item 01</li>
+		<li>Unordered List Item 02</li>
+		<li>Unordered List Item 03</li>
+	</ul>
+
+	<caption>An unordered list with hollow circle marker:</caption>
+	<ul type="circle">
+  	<li>Rice</li>
+    <li>Pulses</li>
+    <li>Flour</li>
+    <li>Beans</li>
+  </ul>
+
+  <caption>An unordered list with square marker:</caption>
+	<ul type="square">
+  	<li>Rice</li>
+    <li>Pulses</li>
+    <li>Flour</li>
+    <li>Beans</li>
+  </ul>
+
+  <caption>An unordered list with default disc marker:</caption>
+	<ul type="disc">
+  	<li>Rice</li>
+    <li>Pulses</li>
+    <li>Flour</li>
+    <li>Beans</li>
+  </ul>
+
+  <caption>An unordered list with no marker:</caption>
+	<ul type="none">
+  	<li>Rice</li>
+    <li>Pulses</li>
+    <li>Flour</li>
+    <li>Beans</li>
+  </ul>
+
 	<h1>Ordered Lists</h1>
+	<!--
+		Ordered lists are lists of items that are in a specific order. The ordered lists are marked with numbers by default; 
+		you can change the numbers into alphabets, roman numbers, etc. by using the type attribute or the CSS 
+		list-style-type property.
+		To create an ordered list, the <ol> tag is used along with the <li> tag, where <li> specifies the list items.
+
+		Ordered List - type Attribute
+		The type attribute for the <ol> tag is used to specify the type of marker for the ordered list in HTML. 
+		By default, the type of list numbering is numbers starting with 1, 2, 3, and so on.
+		You can change the type of numbers by using any of the values given below:
+			-	1: It is the default type of marker.
+			-	I: List items will be displayed with roman number marker.
+			-	A: It will set the marker to upper case alphabets.
+			-	a: It sets the marker to lower case alphabets.
+
+		Ordered List - start Attribute
+		By default, the numbering starts with 1, but you can change it by using the start attribute with the <ol> tag. 
+		The style attribute defines the starting numbers of the ordered list.
+			<ol type="1" start="4"> - Numerals starts with 4.
+			<ol type="I" start="4"> - Numerals starts with IV.
+			<ol type="i" start="4"> - Numerals starts with iv.
+			<ol type="a" start="4"> - Letters starts with d.
+			<ol type="A" start="4"> - Letters starts with D.
+
+		Nested Ordered Lists
+		HTML allows nesting of lists; you can create nested ordered lists to display a list of items inside an item of the 
+		outer list element.
+		
+		NOTE: You can also change the type of outer or inner lists. 
+					You can also define the starting number as per your requirement.
+	-->
+	<caption>An unordered list with number marker:</caption>
+	<ol type="1" start="4">
+		<li>Ordered List Item 01</li>
+		<li>Ordered List Item 02</li>
+		<li>Ordered List Item 03</li>
+	</ol>
+	<caption>An unordered list with roman marker:</caption>
+	<ol type="i">
+		<li>Ordered List Item 01</li>
+		<li>Ordered List Item 02</li>
+		<li>Ordered List Item 03</li>
+	</ol>
+	<caption>An unordered list with roman marker:</caption>
+	<ol type="I">
+		<li>Ordered List Item 01</li>
+		<li>Ordered List Item 02</li>
+		<li>Ordered List Item 03</li>
+	</ol>
+	<caption>An unordered list with alphabet marker:</caption>
+	<ol type="a">
+		<li>Ordered List Item 01</li>
+		<li>Ordered List Item 02</li>
+		<li>Ordered List Item 03</li>
+	</ol>
+	<caption>An unordered list with alphabet marker:</caption>
+	<ol type="A">
+		<li>Ordered List Item 01</li>
+		<li>Ordered List Item 02</li>
+		<li>Ordered List Item 03</li>
+	</ol>
+
+	
 	<h1>Definition Lists</h1>
+	<!--
+		Definition lists are lists of items with their corresponding descriptions. The definition lists are created by using 
+		the <dl>, <dt>, and <dd> tags. Where the <dl> tag specifies the "definition list", the <dt> tag specifies the 
+		"definition term", and the <dd> tag specifies the "definition description".
+	-->
+	<dl>
+		<dt>HTML</dt>
+		<dd>Hyper Text Markup Languange</dd>
+		<dt>CSS</dt>
+		<dd>Cascading Style Sheet</dd>
+	</dl>
 </body>
 </html>
