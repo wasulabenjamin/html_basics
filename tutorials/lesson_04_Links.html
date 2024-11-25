@@ -4,11 +4,78 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>HTML Links</title>
+	<link rel="stylesheet" type="text/css" href="../assets/css/tutorials.css">
+	<!-- <base href="https://www.tutorialspoint.com/"> -->
 </head>
-<body>
+<body alink="red" link="yellow" vlink="green">
 	<h1>Text Links</h1>
+	<!--
+		A webpage can contain various links that take us directly to other web pages or resources and even specific parts of 
+		a given page. A hyperlink is a specific type of link that allows users to navigate from one web page or resource to 
+		another by clicking on it. 
+		You can create hyperlinks using text or images available on a webpage. A hyperlink is specified using HTML tag <a>. 
+		This tag is called anchor tag and anything between the opening <a> tag and the closing </a> tag becomes part of the 
+		link and a user can click that part to reach the linked document.
+
+		Target attribute of anchor Tag
+		The target attribute of the anchor tag in HTML specifies where to open the linked document. 
+		This attribute is used to open linked document in new browser tab, same tab or parent frame depending upon the need.
+
+		Use of Base Path
+		When you link HTML documents related to the same website, it is not required to give a complete URL for every link. 
+		You can get rid of it if you use <base> tag in your HTML document header. This tag is used to give a base path for 
+		all the links. So your browser will concatenate given relative path to this base path and will make a complete URL.
+
+		Linking to a Page Section
+		We can also use href attribute to navigate to a different section within the same page. 
+		We provide '#idofsection' inside href to navigate section of our need.
+
+		Setting Link Text Colors
+		You can set colors of your links, active links and visited links using link, alink and vlink attributes of body tag.
+
+		HTML Downloadable Links
+		You can create text link to make your PDF, or DOC or ZIP files downloadable. 
+		This is achieved by using download attribute of anchor tag.
+	-->
+	<p>Click on <a href="https://wasulabenjamin.github.io/">this</a> link to visit my webpage</p>
+
+	<p>Click on any of the following links:</p>
+	<ul type="square">
+		<li><a href="/html/index.htm" target="_blank">Opens in new</a></li>
+		<li><a href="/html/index.htm" target="_self">Opens in self</a></li>
+		<li><a href="/html/index.htm" target="_parent">Opens in parent</a></li>
+		<li><a href="/html/index.htm" target="_body">Opens in body</a></li>
+	</ul>
+
+	<a href="#home">Home Section</a> <br>
+	<a href="#about">About Section</a>
+
+	<div id="home">
+		<h2>Section</h2>
+		<p>
+			It is important to take care of the pain itself, and it will be followed by the growth of the patient, but at the 
+			same time it will happen that there is a lot of work and pain. For to come to the smallest detail, no one should 
+			practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the reprimand 
+			in the pleasure he wants to be a hair from the pain in the hope that there is no breeding.
+		</p>
+	</div>
+	<div id="about">
+		<h2>Section</h2>
+		<p>
+			It is important to take care of the pain itself, and it will be followed by the growth of the patient, but at the 
+			same time it will happen that there is a lot of work and pain. For to come to the smallest detail, no one should 
+			practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the reprimand 
+			in the pleasure he wants to be a hair from the pain in the hope that there is no breeding.
+		</p>
+	</div>
+
+	<h3>Downlod Page</h3>
+	<p>Download my resume <a href="../assets/docs/resume.pdf" download="../assets/docs/resume.pdf">here</a></p>
+
 	<h1>Image Links</h1>
+
 	<h1>Email Links</h1>
+
 
 </body>
 </html>

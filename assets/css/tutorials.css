@@ -138,3 +138,10 @@ li:hover {
 ol li {
 /*	list-style-type: lower-roman;*/
 }
+
+/***** LINKS   ********************************************************************************************************/
+#about,
+#home {
+	height: 450px;
+	background-color: grey;
+}
